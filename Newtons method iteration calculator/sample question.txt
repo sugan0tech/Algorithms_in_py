@@ -1,0 +1,32 @@
+Compute the real root of log(x)x=1.2  correct to three decimal places using Newton`s method
+
+
+-----Note We have to change the core of the algorithm For each equation----
+here given 
+	x*log(x) = 1.2
+	and f(x) = x*log(x) - 1.2
+	
+Then f'(x) = logx + 1/ln(10)
+	   = logx + 0.4342
+
+
+
+	xi+1 = xi – f(xi)/f’(xi)
+
+on solving we have
+		xi+1 = 0.4342*x + 1.2/logx + 0.4342
+
+
+we know the root lies btw 1 and 4
+and assume the approximate value as 2
+so x0 = 2
+
+
+---now giving the required input to our optimized algorithm we can get ----
+x1 = 2.81326933
+x2 = 2.741103166
+x3 = 2.7406460654
+x4 = 2.74064609 
+ 
+The approximated value for the root is 2.74064609
+

@@ -1,0 +1,5 @@
+Solve x+3y+3z=16;x+4y+3z=18;x+3y+4z=19 by Gauss Jacobi method 
+# arrange the equations in terms of x, y ,z
+# fix that equations in the program
+# and run the program 
+# Give the required inputs

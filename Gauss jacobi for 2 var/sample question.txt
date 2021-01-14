@@ -1,0 +1,8 @@
+Solve by Gauss Jacobi method and Gauss Seidel method 5x+4y=15;3x+7y=12
+
+On rearranging x = (15 - 4*y)/5
+	       
+
+	       y = (12 -3*x)/7
+
+----Now run the program and the enter your desired initial val of x, y and no of iteration-----
